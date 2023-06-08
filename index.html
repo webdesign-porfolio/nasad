@@ -1,0 +1,1079 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel = "icon" href = "img/ctu-logo.png" type = "image/x-icon">
+    <!-- scroll reveal cdn -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- font awesome cdn  -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <script src="https://kit.fontawesome.com/46b7ceee20.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" />
+    
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/lightbox-style.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+</head>
+<body>
+    <!-- header section  -->
+    <div class="header-section section flex">
+        <div class="header-logo">
+            Portfolio<span>.</span>
+        </div>
+
+        <!-- mmode change icon  -->
+        <div class="mode-change">
+            <i class="fa-solid fa-moon" id="mode-change-icon"></i>
+        </div>
+
+        <!-- mobile icon  -->
+        <div class="mobile-menu-icon" id="mobile-menu">
+            <i class="fa-solid fa-bars-staggered" id="mobile-menu-icon"></i>
+        </div>
+
+        <!-- header navigation  -->
+        <div class="header-nav flex" id="header-nav">
+            <ul class="nav flex">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#my-skills-section">Skills</a></li>
+                <li><a href="#work">Works</a></li>
+                <li><a href="#services">Services</a></li>
+            </ul>
+            
+            <div class="header-btn flex">
+                <a href="#contact"><button class="btn contact-btn">Contact</button></a>
+                <button id="closeButton" class="close-button">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!--Up Button-->
+    <button id="upButton" class="up-button" onclick="scrollToTop()">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- hero section  -->
+    <div class="hero-section section flex">
+        <!-- hero content  -->
+        <div class="hero-content flex">
+            <p class="hello-i-am">Hello! I am</p>
+            <h1 class="content-header">
+                Jabarh M. <span>Maca-ayong</span>
+            </h1>
+            <p class="content-body">
+                I am an aspiring graphic designer, digital artist, and animator. Be sure to check out my works while you're here. You can find me at the following socials:
+            </p>
+            <a href="PDF/cv.pdf" download="Jabarh_CV" target="_blank">
+            <button class="btn content-btn" id="downloadButton">
+                Download CV
+            </button>
+            </a>
+        </div>
+
+        <!-- hero image  -->
+        <div class="hero-image flex">
+            <img src="img/triple.png" class="main-img" alt="">
+            <!--<img src="img/bg-2.svg" class="bg-img" alt="">-->
+        </div>
+
+        <!-- social media icon list  -->
+        <div class="hero-footer flex">
+            <div class="social-icon-list">
+                <ul class="nav flex">
+                    <li>
+                        <i class="fa-brands fa-square-facebook"></i>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-square-twitter"></i>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-instagram"></i>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="about-section" id="about">
+        <div class="about-container">
+            <div class="about-content-section">
+                <div class="about-title">
+                    <h1>About Us</h1>
+                </div>
+                <div class="about-content">
+                    <h3>
+                        Bachelor of Science in Graphics and Design
+                    </h3>
+                    <p>
+                        Bachelor of Science in Graphics and Design is an academic program that equips students with the knowledge and skills to create visually appealing designs using principles of art, typography, color theory, and layout techniques across various mediums.
+                    </p>
+                    <div class="about-button">
+                        <a href="">Read More</a>
+                    </div>                    
+                </div>
+
+                <div class="about-social">
+                    <i class="fa-brands fa-square-facebook"></i>
+                    <i class="fa-brands fa-square-twitter"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+            <div class="about-image">
+                <img src="img/dayle.jpg" alt="image">
+            </div>
+        </div>
+    </div>
+
+    <!-- My Skills Section -->
+    <section id="my-skills-section">
+    <div class="container-skills">
+	
+        <!--   *******  Main Heading Starts  *******   -->
+    
+        <div class="main-title-skills">
+            <h1>My Skills</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+    
+        <!--   *******  Main Heading Ends  *******   -->
+    
+        <div class="row-skills">
+            
+            <!--   *******  Left Section Starts here  *******   -->
+    
+            <section class="col-skills">
+                
+                <div class="sub-title col-skill-left">
+                    <h2>Programming Skills</h2>
+                </div>
+    
+                <div class="skills-container">
+                    
+                    <div class="skill">
+                        <div class="subject">HTML</div>
+                        <div class="progress-bar" value="94%">
+                            <div class="progress-line" style="max-width: 94%"></div>
+                        </div>
+                    </div>
+    
+                    <div class="skill">
+                        <div class="subject">CSS</div>
+                        <div class="progress-bar" value="83%">
+                            <div class="progress-line" style="max-width: 83%"></div>
+                        </div>
+                    </div>
+    
+                    <div class="skill">
+                        <div class="subject">JavaScript</div>
+                        <div class="progress-bar" value="88%">
+                            <div class="progress-line" style="max-width: 88%"></div>
+                        </div>
+                    </div>
+    
+                    <div class="skill">
+                        <div class="subject">Php</div>
+                        <div class="progress-bar" value="68%">
+                            <div class="progress-line" style="max-width: 68%"></div>
+                        </div>
+                    </div>
+    
+                </div>
+            </section>
+    
+            <!--   ********  Left Section Ends Here  *******  -->
+    
+            <!--   ********  Right Section Starts Here  ********  -->
+    
+            <section class="col-skills">
+                
+                <div class="sub-title col-skill-right">
+                    <h2>Designing Skills</h2>
+                </div>
+    
+                <div class="skills-container">
+                    
+                    <div class="skill">
+                        <div class="subject">Photoshop</div>
+                        <div class="progress-bar" value="82%">
+                            <div class="progress-line" style="max-width: 82%"></div>
+                        </div>
+                    </div>
+    
+                    <div class="skill">
+                        <div class="subject">Illustrator</div>
+                        <div class="progress-bar" value="74%">
+                            <div class="progress-line" style="max-width: 74%"></div>
+                        </div>
+                    </div>
+    
+                    <div class="skill">
+                        <div class="subject">Figma</div>
+                        <div class="progress-bar" value="63%">
+                            <div class="progress-line" style="max-width: 63%"></div>
+                        </div>
+                    </div>
+    
+                    <div class="skill">
+                        <div class="subject">Responsive Design</div>
+                        <div class="progress-bar" value="91%">
+                            <div class="progress-line" style="max-width: 91%"></div>
+                        </div>
+                    </div>
+    
+                </div>
+            </section>
+    
+            <!--   ********  Right Section Ends Here  ********   -->
+        </div>
+    </section>
+
+    <!------------------------------------------------------------------------------------>
+
+    <section id="work">
+    <div class="prod-sec-title">
+        <h1>3D MODEL DESIGN KEYZER</h1>
+        <p>This Keyzer's Designs are owned by Group 1 <span>Graeme Dayle Alquilos, Arche Angana, Jabarh Maca-ayong, Kelly Lara Quibillan, Joybelle Acaylar.</span> Designed by Mr. Arche Angana and presented during the presentations.</p>
+    </div>
+    <!-- product section 1 -->
+    <div class="product-section flex">
+        <!-- card -1  -->
+        <div class="card card-1 flex">
+            <div class="card-img flex">
+                <img src="img/k1.png" alt="">
+            </div>
+            <div class="card-body flex">
+                <h1 class="product-name">
+                    Keyzer Design - Earth
+                </h1>
+                <p class="prod-p">Earth theme inspired design and style.</p>
+                <!--
+                <div class="star-group">
+                    <i class="fa-solid fa-star active"></i>
+                    <i class="fa-solid fa-star active"></i>
+                    <i class="fa-solid fa-star active"></i>
+                    <i class="fa-solid fa-star active"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <button class="btn more-detail-btn">
+                    More Details
+                </button>
+                -->
+            </div>
+        </div>
+
+        <!-- card-2  -->
+        <div class="card card-2 flex">
+            <div class="card-img flex">
+                <img src="img/k2.png" alt="">
+            </div>
+            <div class="card-body flex">
+                <h1 class="product-name">
+                    Keyzer Design - Molten Red
+                </h1>
+                <p class="prod-p">Molten Red theme inspired design and style.</p>
+                <!--
+                <div class="star-group">
+                    <i class="fa-solid fa-star active"></i>
+                    <i class="fa-solid fa-star active"></i>
+                    <i class="fa-solid fa-star active"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <button class="btn more-detail-btn">
+                    More Details
+                </button>
+                -->
+            </div>
+        </div>
+    </div>
+
+    <!-- product section 2  -->
+    <div class="product-section flex">
+        <!-- card -3  -->
+        <div class="card card-3 flex">
+            <div class="card-img flex">
+                <img src="img/k3.png" alt="">
+            </div>
+            <div class="card-body flex">
+                <h1 class="product-name">
+                    Keyzer Design - Rainbow V1
+                </h1>
+                <p class="prod-p">Rainbow V1 theme inspired design and style.</p>
+            </div>
+        </div>
+
+        <!-- card-4  -->
+        <div class="card card-4 flex">
+            <div class="card-img flex">
+                <img src="img/k4.png" alt="">
+            </div>
+            <div class="card-body flex">
+                <h1 class="product-name">
+                    Keyzer Design - Ocean
+                </h1>
+                <p class="prod-p">Ocen theme inspired design and style.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- product section 3  -->
+    <div class="product-section flex">
+        <!-- card -5  -->
+        <div class="card card-5 flex">
+            <div class="card-img flex">
+                <img src="img/k5.png" alt="">
+            </div>
+            <div class="card-body flex">
+                <h1 class="product-name">
+                    Keyzer Design - Lava
+                </h1>
+                <p class="prod-p">Lava theme inspired design and style.</p>
+            </div>
+        </div>
+
+        <!-- card-6  -->
+        <div class="card card-6 flex">
+            <div class="card-img flex">
+                <img src="img/k7.png" alt="">
+            </div>
+            <div class="card-body flex">
+                <h1 class="product-name">
+                    Keyzer Design - Rainbow V2
+                </h1>
+                <p class="prod-p">Rainbow V2 theme inspired design and style.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- product section 4  -->
+    <div class="product-section flex">
+        <!-- card-7-->
+        <div class="card card-5 flex">
+            <div class="card-img flex">
+                <img src="img/k6.png" alt="">
+            </div>
+            <div class="card-body flex">
+                <h1 class="product-name">
+                    Keyzer Design - Black
+                </h1>
+                <p class="prod-p">Natural Black theme inspired design and style.</p>
+            </div>
+        </div>
+
+        <!-- card-6
+        <div class="card card-6 flex">
+            <div class="card-img flex">
+                <img src="img/k7.png" alt="">
+            </div>
+            <div class="card-body flex">
+                <h1 class="product-name">
+                    Keyzer Design - Red
+                </h1>
+            </div>
+        </div>  -->
+    </div>
+
+    <!--STICKERS-->
+    <section>
+    <div class = "products-sticker">
+        <div class = "container-sticker">
+            <h1 class = "lg-title">STICKERS</h1>
+            <p class = "text-light">This chibi mobile legend heroes inspired stickers are made/created by and sold by Graeme Dayle Alquilos. You can purchase this sticker by coming to Ayala Malls Central Bloc - 4th Floor. Look for LitFest event location and look for Dayle's Booth. For more details you can contact Graeme Dayle Alquilos @via social media.</p>
+
+            <div class = "product-items-sticker">
+                <!-- single product -->
+                <div class = "product-sticker prod-1">
+                    <div class = "product-content-sticker">
+                        <div class = "product-img-sticker">
+                            <img src = "img/hero1.png" alt = "product image">
+                        </div>
+                        <div class = "product-btns-sticker">
+                            <button type = "button" class = "btn-cart-sticker"> add to cart
+                                <span><i class = "fas fa-plus"></i></span>
+                            </button>
+                            <button type = "button" class = "btn-buy-sticker"> buy now
+                                <span><i class = "fas fa-shopping-cart"></i></span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class = "product-info-sticker">
+                        <div class = "product-info-top">
+                            <h2 class = "sm-title">chibi-style</h2>
+                            <div class = "rating">
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "far fa-star"></i></span>
+                            </div>
+                        </div>
+                        <a href = "#" class = "product-name-sticker">Hero - Layla 2x2 inch, new product</a>
+                        <p class = "product-price">Php 50.00</p>
+                        <p class = "product-price">Php 35.00</p>
+                    </div>
+
+                    <div class = "off-info">
+                        <h2 class = "sm-title">25% off</h2>
+                    </div>
+                </div>
+                <!-- end of single product -->
+                <!-- single product -->
+                <div class = "product-sticker prod-2">
+                    <div class = "product-content-sticker">
+                        <div class = "product-img-sticker">
+                            <img src = "img/hero2.png" alt = "product image">
+                        </div>
+                        <div class = "product-btns-sticker">
+                            <button type = "button" class = "btn-cart-sticker"> add to cart
+                                <span><i class = "fas fa-plus"></i></span>
+                            </button>
+                            <button type = "button" class = "btn-buy-sticker"> buy now
+                                <span><i class = "fas fa-shopping-cart"></i></span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class = "product-info-sticker">
+                        <div class = "product-info-top">
+                            <h2 class = "sm-title">chibi-style</h2>
+                            <div class = "rating">
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "far fa-star"></i></span>
+                            </div>
+                        </div>
+                        <a href = "#" class = "product-name-sticker">Hero - Chou 2x2 inch, new product</a>
+                        <p class = "product-price">Php 50.00</p>
+                        <p class = "product-price">Php 35.00</p>
+                    </div>
+                </div>
+                <!-- end of single product -->
+                <!-- single product -->
+                <div class = "product-sticker prod-3">
+                    <div class = "product-content-sticker">
+                        <div class = "product-img-sticker">
+                            <img src = "img/hero3.png" alt = "product image">
+                        </div>
+                        <div class = "product-btns-sticker">
+                            <button type = "button" class = "btn-cart-sticker"> add to cart
+                                <span><i class = "fas fa-plus"></i></span>
+                            </button>
+                            <button type = "button" class = "btn-buy-sticker"> buy now
+                                <span><i class = "fas fa-shopping-cart"></i></span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class = "product-info-sticker">
+                        <div class = "product-info-top">
+                            <h2 class = "sm-title">chibi-style</h2>
+                            <div class = "rating">
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "far fa-star"></i></span>
+                            </div>
+                        </div>
+                        <a href = "#" class = "product-name-sticker">Hero - Zilong 2x2 inch, new product</a>
+                        <p class = "product-price">Php 50.00</p>
+                        <p class = "product-price">Php 35.00</p>
+                    </div>
+                </div>
+                <!-- end of single product -->
+                <!-- single product -->
+                <div class = "product-sticker prod-4">
+                    <div class = "product-content-sticker">
+                        <div class = "product-img-sticker">
+                            <img src = "img/hero4.png" alt = "product image">
+                        </div>
+                        <div class = "product-btns-sticker">
+                            <button type = "button" class = "btn-cart-sticker"> add to cart
+                                <span><i class = "fas fa-plus"></i></span>
+                            </button>
+                            <button type = "button" class = "btn-buy-sticker"> buy now
+                                <span><i class = "fas fa-shopping-cart"></i></span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class = "product-info-sticker">
+                        <div class = "product-info-top">
+                            <h2 class = "sm-title">chibi-style</h2>
+                            <div class = "rating">
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "far fa-star"></i></span>
+                            </div>
+                        </div>
+                        <a href = "#" class = "product-name-sticker">Hero - Hanabi 2x2 inch, new product</a>
+                        <p class = "product-price">Php 50.00</p>
+                        <p class = "product-price">Php 35.00</p>
+                    </div>
+
+                    <div class = "off-info">
+                        <h2 class = "sm-title">25% off</h2>
+                    </div>
+                </div>
+                <!-- end of single product -->
+                <!-- single product -->
+                <div class = "product-sticker prod-5">
+                    <div class = "product-content-sticker">
+                        <div class = "product-img-sticker">
+                            <img src = "img/hero5.png" alt = "product image">
+                        </div>
+                        <div class = "product-btns-sticker">
+                            <button type = "button" class = "btn-cart-sticker"> add to cart
+                                <span><i class = "fas fa-plus"></i></span>
+                            </button>
+                            <button type = "button" class = "btn-buy-sticker"> buy now
+                                <span><i class = "fas fa-shopping-cart"></i></span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class = "product-info-sticker">
+                        <div class = "product-info-top">
+                            <h2 class = "sm-title">chibi-style</h2>
+                            <div class = "rating">
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "far fa-star"></i></span>
+                            </div>
+                        </div>
+                        <a href = "#" class = "product-name-sticker">hero - Miya 2x2 inch, new product</a>
+                        <p class = "product-price">Php 50.00</p>
+                        <p class = "product-price">Php 35.00</p>
+                    </div>
+                </div>
+                <!-- end of single product -->
+                <!-- single product -->
+                <div class = "product-sticker prod-6">
+                    <div class = "product-content-sticker">
+                        <div class = "product-img-sticker">
+                            <img src = "img/hero6.png" alt = "product image">
+                        </div>
+                        <div class = "product-btns-sticker">
+                            <button type = "button" class = "btn-cart-sticker"> add to cart
+                                <span><i class = "fas fa-plus"></i></span>
+                            </button>
+                            <button type = "button" class = "btn-buy-sticker"> buy now
+                                <span><i class = "fas fa-shopping-cart"></i></span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class = "product-info-sticker">
+                        <div class = "product-info-top">
+                            <h2 class = "sm-title">chibi-style</h2>
+                            <div class = "rating">
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "far fa-star"></i></span>
+                            </div>
+                        </div>
+                        <a href = "#" class = "product-name-sticker">Hero - Chang-e 2x2 inch, new product</a>
+                        <p class = "product-price">Php 50.00</p>
+                        <p class = "product-price">Php 35.00</p>
+                    </div>
+                </div>
+                <!-- end of single product -->
+                <!-- single product -->
+                <div class = "product-sticker prod-7">
+                    <div class = "product-content-sticker">
+                        <div class = "product-img-sticker">
+                            <img src = "img/hero7.png" alt = "product image">
+                        </div>
+                        <div class = "product-btns-sticker">
+                            <button type = "button" class = "btn-cart-sticker"> add to cart
+                                <span><i class = "fas fa-plus"></i></span>
+                            </button>
+                            <button type = "button" class = "btn-buy-sticker"> buy now
+                                <span><i class = "fas fa-shopping-cart"></i></span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class = "product-info-sticker">
+                        <div class = "product-info-top">
+                            <h2 class = "sm-title">chibi-style</h2>
+                            <div class = "rating">
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "far fa-star"></i></span>
+                            </div>
+                        </div>
+                        <a href = "#" class = "product-name-sticker">Hero - Nana 2x2 inch, new product</a>
+                        <p class = "product-price">Php 50.00</p>
+                        <p class = "product-price">Php 35.00</p>
+                    </div>
+                </div>
+                <!-- end of single product -->
+                <!-- single product -->
+                <div class = "product-sticker prod-8">
+                    <div class = "product-content-sticker">
+                        <div class = "product-img-sticker">
+                            <img src = "img/hero8.png" alt = "product image">
+                        </div>
+                        <div class = "product-btns-sticker">
+                            <button type = "button" class = "btn-cart-sticker"> add to cart
+                                <span><i class = "fas fa-plus"></i></span>
+                            </button>
+                            <button type = "button" class = "btn-buy-sticker"> buy now
+                                <span><i class = "fas fa-shopping-cart"></i></span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class = "product-info-sticker">
+                        <div class = "product-info-top">
+                            <h2 class = "sm-title">chibi-style</h2>
+                            <div class = "rating">
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "far fa-star"></i></span>
+                            </div>
+                        </div>
+                        <a href = "#" class = "product-name-sticker">Hero - Lesley 2x2 inch, new product</a>
+                        <p class = "product-price">Php 50.00</p>
+                        <p class = "product-price">Php 35.00</p>
+                    </div>
+
+                    <div class = "off-info">
+                        <h2 class = "sm-title">35% off</h2>
+                    </div>
+                </div>
+                <!-- end of single product -->
+                <!-- single product -->
+                <div class = "product-sticker prod-9">
+                    <div class = "product-content-sticker">
+                        <div class = "product-img-sticker">
+                            <img src = "img/hero9.png" alt = "product image">
+                        </div>
+                        <div class = "product-btns-sticker">
+                            <button type = "button" class = "btn-cart-sticker"> add to cart
+                                <span><i class = "fas fa-plus"></i></span>
+                            </button>
+                            <button type = "button" class = "btn-buy-sticker"> buy now
+                                <span><i class = "fas fa-shopping-cart"></i></span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class = "product-info-sticker">
+                        <div class = "product-info-top">
+                            <h2 class = "sm-title">chibi-style</h2>
+                            <div class = "rating">
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "far fa-star"></i></span>
+                            </div>
+                        </div>
+                        <a href = "#" class = "product-name-sticker">Hero - Dyrroth 2x2 inch, new product</a>
+                        <p class = "product-price">Php 50.00</p>
+                        <p class = "product-price">Php 35.00</p>
+                    </div>
+
+                    <div class = "off-info">
+                        <h2 class = "sm-title">35% off</h2>
+                    </div>
+                </div>
+                <!-- end of single product -->
+                <!-- single product -->
+                <div class = "product-sticker prod-10">
+                    <div class = "product-content-sticker">
+                        <div class = "product-img-sticker">
+                            <img src = "img/hero10.png" alt = "product image">
+                        </div>
+                        <div class = "product-btns-sticker">
+                            <button type = "button" class = "btn-cart-sticker"> add to cart
+                                <span><i class = "fas fa-plus"></i></span>
+                            </button>
+                            <button type = "button" class = "btn-buy-sticker"> buy now
+                                <span><i class = "fas fa-shopping-cart"></i></span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class = "product-info-sticker">
+                        <div class = "product-info-top">
+                            <h2 class = "sm-title">chibi-style</h2>
+                            <div class = "rating">
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "far fa-star"></i></span>
+                            </div>
+                        </div>
+                        <a href = "#" class = "product-name-sticker">Hero - Kagura 2x2 inch, new product</a>
+                        <p class = "product-price">Php 50.00</p>
+                        <p class = "product-price">Php 35.00</p>
+                    </div>
+
+                    <div class = "off-info">
+                        <h2 class = "sm-title">35% off</h2>
+                    </div>
+                </div>
+                <!-- end of single product -->
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- Carousel -->
+    <section id="carousel-section" class="carousel-section">
+    <div class="carousel-title">
+        <h1>ESPORT LOGO</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      </div>
+  
+      <div class="wrapper">
+        <i id="left-btn" class="fa-solid fa-angle-left"></i>
+        <ul class="carousel">
+          <li class="card-carousel">
+            <div class="img-carousel"><img src="img/koala.png" alt="img" draggable="false"></div>
+            <!--<h2>Blanche Pearson</h2>
+            <span>Sales Manager</span>-->
+          </li>
+          <li class="card-carousel">
+            <div class="img-carousel"><img src="img/kontana.png" alt="img" draggable="false"></div>
+            <!--<h2>Joenas Brauers</h2>
+            <span>Web Developer</span>-->
+          </li>
+          <li class="card-carousel">
+            <div class="img-carousel"><img src="img/alliens.png" alt="img" draggable="false"></div>
+            <!--<h2>Lariach French</h2>
+            <span>Online Teacher</span>-->
+          </li>
+          <li class="card-carousel">
+            <div class="img-carousel"><img src="img/oracle.png" alt="img" draggable="false"></div>
+            <!--<h2>James Khosravi</h2>
+            <span>Freelancer</span>-->
+          </li>
+          <li class="card-carousel">
+            <div class="img-carousel"><img src="img/verdihille.png" alt="img" draggable="false"></div>
+            <!--<h2>Kristina Zasiadko</h2>
+            <span>Bank Manager</span>-->
+          </li>
+          <li class="card-carousel">
+            <div class="img-carousel"><img src="img/godlike.png" alt="img" draggable="false"></div>
+            <!--<h2>Donald Horton</h2>
+            <span>App Designer</span>-->
+          </li>
+        </ul>
+        <i id="right-btn" class="fa-solid fa-angle-right"></i>
+      </div>
+    </section>
+    
+    <!-------------------------------------------------------------------------------------------------------------------------------------------------->
+
+    <div class="gallery-title">
+        <h1>LOGO DESIGN</h1>
+        <p>Simple & Minimalistic Logo Design using CANVA PRO</p>
+    </div>
+    <!-- Gallery Section -->
+    <div class="container">
+        <div class="gallery">
+            <a href="img/1logo.png" data-lightbox="models" data-title="Krobelus" class="g1">
+                <img src="img/1logo.png" alt="">
+            </a>
+            <a href="img/2logo.png" data-lightbox="models" data-title="Darkmode" class="g2">
+                <img src="img/2logo.png" alt="">
+            </a>
+            <a href="img/3logo.png" data-lightbox="models" data-title="HALFdark" class="g3">
+                <img src="img/3logo.png" alt="">
+            </a>
+            <a href="img/4logo.png" data-lightbox="models" data-title="5bars" class="g4">
+                <img src="img/4logo.png" alt="">
+            </a>
+            <a href="img/5logo.png" data-lightbox="models" data-title="Benny Petshop" class="g5">
+                <img src="img/5logo.png" alt="">
+            </a>
+            <a href="img/6logo.png" data-lightbox="models" data-title="Justcut" class="g6">
+                <img src="img/6logo.png" alt="">
+            </a>
+            <a href="img/7logo.png" data-lightbox="models" data-title="JABZ HD" class="g7">
+                <img src="img/7logo.png" alt="">
+            </a>
+            <a href="img/8logo.png" data-lightbox="models" data-title="Empty Space" class="g8"> 
+                <img src="img/8logo.png" alt="">
+            </a>
+        </div>
+    </div>
+    </section>
+
+    <!--Services-->
+    <section id="services">
+        <div class="container-services">
+            <h1 class="services-title">SERVICES</h1>
+            <div class="row-service">
+                <div class="service sr1">
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Simple designs & styles with responsiveness.</p>
+                </div>
+                <div class="service sr2">
+                    <i class="fa-solid fa-book-open"></i>
+                    <h2>Brochures</h2>
+                    <p>Good quality designs and layout with various unique styles.</p>
+                </div>
+                <div class="service sl1">
+                    <i class="fa-brands fa-square-pied-piper"></i>
+                    <h2>Logo Design</h2>
+                    <p>Simple and unique logo designs with a good quality.</p>
+                </div>
+                <div class="service sl2">
+                    <i class="fa-solid fa-sheet-plastic"></i>
+                    <h2>Poster</h2>
+                    <p>Unique poster design and styles as for promotional materials.</p>
+                </div>
+                <div class="service sr3">
+                    <i class="fa-solid fa-rectangle-ad"></i>
+                    <h2>Banners</h2>
+                    <p>Banners design and layout for large prints.</p>
+                </div>
+                <div class="service sr4">
+                    <i class="fa-solid fa-sign-hanging"></i>
+                    <h2>Signage</h2>
+                    <p>Large signage prints and other large promotional ads.</p>
+                </div>
+                <div class="service sl3">
+                    <i class="fa-solid fa-box"></i>
+                    <h2>Packaging</h2>
+                    <p>Making different packaging styles and design.</p>
+                </div>
+                <div class="service sl4">
+                    <i class="fa-solid fa-pencil"></i>
+                    <h2>Infographics</h2>
+                    <p>Creating various infographics layout and promotionals.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    
+    <!--Contact-->
+    <section id="contact">
+        <div class="container-contact">
+            <div class="content-contact">
+                <div class="left-side">
+                    <div class="address details">
+                        <i class="fa-sharp fa-solid fa-location-dot"></i>
+                        <div class="topic">Address</div>
+                        <div class="text-one">12- C Dr. Reyes St., Gorordo Avenue</div>
+                        <div class="text-two">Kamputhaw, Cebu City</div>
+                    </div>
+                    <div class="phone details">
+                        <i class="fa-solid fa-phone"></i>
+                        <div class="topic">Phone</div>
+                        <div class="text-one">0991-638-6501</div>
+                        <div class="text-two">8-700</div>
+                    </div>
+                    <div class="email details">
+                        <i class="fa-solid fa-envelope"></i>
+                        <div class="topic">Email</div>
+                        <div class="text-one">jabz.coding@gmail.com</div>
+                        <div class="text-two">jabz.coding@yahoo.com</div>
+                    </div>
+                </div>
+                <div class="right-side">
+                    <div class="topic-text">Send me a message</div>
+                    <p class="right-side-p">If  you have any work form me or any types of quries realated to my tutorial, you can send me message from here. It's my pleasure to help you.</p>
+                    <form action="#">
+                        <div class="input-box">
+                            <input type="text" placeholder="Enter your name">
+                        </div>
+                        <div class="input-box">
+                            <input type="text" placeholder="Enter your email">
+                        </div>
+                        <div class="input-box">
+                            <textarea placeholder="Enter your message"></textarea>
+                        </div>
+                        <div class="button">
+                            <input type="button" value="Send Now">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="contributors" id="contributors">
+        <div class="con-title">
+            <h1 class="con-con-title">
+                CONTRIBUTORS
+            </h1>
+        </div>
+    <div class="contributors-section">
+        <div class="profile-card-con con-1">
+          <div class="image">
+            <img src="img/dayle.jpg" alt="" class="profile-img" />
+          </div>
+    
+          <div class="text-data-con">
+            <span class="name">Graeme Dayle Alquilos</span>
+            <span class="job">Graphic Artist & Designer</span>
+          </div>
+    
+          <div class="media-buttons-con">
+            <a href="https://www.facebook.com/grimmdle" target="_blank" style="background: #4267b2" class="link">
+              <i class="bx bxl-facebook"></i>
+            </a>
+            <a href="https://twitter.com/grimmdle" target="_blank" style="background: #1da1f2" class="link">
+              <i class="bx bxl-twitter"></i>
+            </a>
+            <a href="https://www.instagram.com/grimmdles_doodles/" target="_blank" style="background: #e1306c" class="link">
+              <i class="bx bxl-instagram"></i>
+            </a>
+            <a href="https://gdayle.github.io/grimmdle/?fbclid=IwAR2aOMvUSI_LHIB4SmwHTHaFvs4giIFewS_7EqRBHm5R17GCoHaAi4scrmk" target="_blank" style="background: #222222" class="link">
+              <i class="bx bxl-github"></i>
+            </a>
+          </div>
+    
+          <div class="buttons-con">
+            <a href="https://gdayle.github.io/grimmdle/?fbclid=IwAR2aOMvUSI_LHIB4SmwHTHaFvs4giIFewS_7EqRBHm5R17GCoHaAi4scrmk" target="_blank"><button class="button">Portfolio</button></a>
+          </div>
+    
+          <div class="analytics">
+            <div class="data-con">
+              <i class="bx bx-heart"></i>
+              <span class="number">90k</span>
+            </div>
+            <div class="data-con">
+              <i class="bx bx-like"></i>
+              <span class="number">20k</span>
+            </div>
+            <div class="data-con">
+              <i class="bx bx-share"></i>
+              <span class="number">12k</span>
+            </div>
+          </div>
+        </div>
+    
+         <!------------------------------------------------------------------------------------> 
+        <div class="profile-card-con con-2">
+          <div class="image">
+            <img src="img/arche.jpg" alt="" class="profile-img" />
+          </div>
+    
+          <div class="text-data-con">
+            <span class="name">Arche Angana</span>
+            <span class="job">Web Designer | Sideline Pornstar</span>
+          </div>
+    
+          <div class="media-buttons-con">
+            <a href="https://www.pornhub.com/" target="_blank" style="background: #4267b2" class="link">
+              <i class="bx bxl-facebook"></i>
+            </a>
+            <a href="https://www.pornhub.com/" target="_blank"  style="background: #1da1f2" class="link">
+              <i class="bx bxl-twitter"></i>
+            </a>
+            <a href="https://www.pornhub.com/" target="_blank" style="background: #e1306c" class="link">
+              <i class="bx bxl-instagram"></i>
+            </a>
+            <a href="https://www.pornhub.com/" style="background: #222222" class="link">
+              <i class="bx bxl-github"></i>
+            </a>
+          </div>
+    
+          <div class="buttons-con">
+            <a href="https://www.pornhub.com/" target="_blank"><button class="button">Portfolio</button></a>
+          </div>
+    
+          <div class="analytics">
+            <div class="data-con">
+              <i class="bx bx-heart"></i>
+              <span class="number">57k</span>
+            </div>
+            <div class="data-con">
+              <i class="bx bx-like"></i>
+              <span class="number">17k</span>
+            </div>
+            <div class="data-con">
+              <i class="bx bx-share" ></i>
+              <span class="number">10k</span>
+            </div>
+          </div>
+        </div>
+    </div>
+    </section>
+
+    <!--Footer-->
+    <section id="footer">
+        <footer>
+            <div class="footer-row">
+                <div class="footer-col">
+                    <a href="#" class="footer-logo">JABZ</a>
+                    <p>
+                        Graphic designers are creative professionals who use their artistry and technical skills to create visually appealing designs. 
+                        They apply design principles, typography, and color theory to solve visual problems and communicate messages effectively.
+                    </p>
+                </div>
+                <div class="footer-col">
+                    <h3>Links</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#work">Works</a></li>
+                        <li><a href="#services">Services</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">    
+                    <h3>Office</h3>
+                    <p>Cebu Technological University - Main Campus</p>
+                    <p>College of Technology</p>
+                    <p>Automation Bldg. 4F-D</p>
+                    <p>Graphics & Design</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Social</h3>
+                    <i class="fa-brands fa-square-facebook"></i>
+                    <i class="fa-brands fa-square-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-github"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+        </footer>
+    </section>
+    <!-- custom js file  -->
+    <script src="js/script.js"></script>
+    <script src="js/lightbox-plus-jquery.js"></script>
+    <script src="js/carousel-script.js"></script>
+</body>
+</html>
